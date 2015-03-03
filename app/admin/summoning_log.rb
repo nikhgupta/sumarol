@@ -1,4 +1,5 @@
 ActiveAdmin.register SummoningLog do
+  permit_params :monsters
 
 
   # See permitted parameters documentation:
